@@ -46,6 +46,6 @@ However we would also like to **recommend post-implementation evaluation** to ch
 Analyzing the KPI's we further **recommend future patches to focus on improving errors and backward steps** (maybe by creating more robust steps or simplifying some) to prevent client's moving back and forward on the sequence and a **special attention on each step (particularly step 2)** should be also taken since step 2 performed worst than control in time taken per step.
 
 ## Deliverables
-Kanban - https://trello.com/invite/b/6703dad556cc9c320af6e09e/ATTIe2bafeeb203644040a1a9358844ff61b42B0C5BB/project5
-Presentation - https://docs.google.com/presentation/d/1Pihzjf8NO48L5Ajib52p6fFpWuUHfBb-6goOAe80EhA/present?pli=1&slide=id.gd4588e802c_1_186
-Tableau Public - 
+Kanban - https://trello.com/invite/b/6703dad556cc9c320af6e09e/ATTIe2bafeeb203644040a1a9358844ff61b42B0C5BB/project5 <br>
+Presentation - https://docs.google.com/presentation/d/1Pihzjf8NO48L5Ajib52p6fFpWuUHfBb-6goOAe80EhA/present?pli=1&slide=id.gd4588e802c_1_186 <br>
+Tableau Public - <br>
