@@ -1,6 +1,6 @@
 # Project Vanguard
 
-Baratheon dept. (Lihn and Ricardo M.)
+Baratheon dept. (Linh Pham and Ricardo Morgado)
 
 ## Overview
 
