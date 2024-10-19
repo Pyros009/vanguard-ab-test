@@ -7,9 +7,9 @@ Baratheon dept. (Linh Pham and Ricardo Morgado)
 Vanguard is an investment firm that is currently preparing the launch of a new UI. So, to assess if there's a significant advantage of the newly developed UI versus the old design, asked House Baratheon's department to evaluate both performances and give it's feedback.
 
 Baratheon department was given 4 datasets consisting on:
-- **Client profiles:** including Age, Balance, Gender, Tenure and Nr of calls and logons on a 6month period;
-- **Experiment Rooster:** client_ids segregated by Test, Control and None;
-- **Digital Footprint:** logs of client requests and the dated transaction steps.
+- **Client profiles [Client_demo](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_demo.txt):** including Age, Balance, Gender, Tenure and Nr of calls and logons on a 6month period;
+- **Experiment Rooster [Client_rooster](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_experiment_clients.txt):** client_ids segregated by Test, Control and None;
+- **Digital Footprint [Data_1](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_web_data_pt_1.txt) [Data_2](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_web_data_pt_2.txt):** logs of client requests and the dated transaction steps.
 
 All data was then purged from NaNs, formatted and binned together to provide initial EDA's and consequent statistical analysis.
 
@@ -42,3 +42,6 @@ However we would also like to **recommend post-implementation evaluation** to ch
 Analyzing the KPI's we further **recommend future patches to focus on improving errors and backward steps** (maybe by creating more robust steps or simplifying some) to prevent client's moving back and forward on the sequence and a **special attention on each step (particularly step 2)** should be also taken since step 2 performed worst than control in time taken per step.
 
 ## Deliverables
+Kanban - https://trello.com/invite/b/6703dad556cc9c320af6e09e/ATTIe2bafeeb203644040a1a9358844ff61b42B0C5BB/project5
+Presentation - https://docs.google.com/presentation/d/1Pihzjf8NO48L5Ajib52p6fFpWuUHfBb-6goOAe80EhA/present?pli=1&slide=id.gd4588e802c_1_186
+Tableau Public - 
