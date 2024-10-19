@@ -1,6 +1,6 @@
 # Project Vanguard
 
-Baratheon dept.
+Baratheon dept. (Lihn and Ricardo M.)
 
 ## Overview
 
