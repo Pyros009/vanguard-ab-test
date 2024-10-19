@@ -7,9 +7,9 @@ Baratheon dept. (Linh Pham and Ricardo Morgado)
 Vanguard is an investment firm that is currently preparing the launch of a new UI. So, to assess if there's a significant advantage of the newly developed UI versus the old design, asked House Baratheon's department to evaluate both performances and give it's feedback.
 
 Baratheon department was given 4 datasets consisting on:
-- Client profiles including Age, Balance, Gender, Tenure and Nr of calls and logons on a 6month period;
-- Experiment Rooster: client_ids segregated by Test, Control and None;
-- Digital Footprint: logs of client requests and the dated transaction steps.
+- **Client profiles:** including Age, Balance, Gender, Tenure and Nr of calls and logons on a 6month period;
+- **Experiment Rooster:** client_ids segregated by Test, Control and None;
+- **Digital Footprint:** logs of client requests and the dated transaction steps.
 
 All data was then purged from NaNs, formatted and binned together to provide initial EDA's and consequent statistical analysis.
 
