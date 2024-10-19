@@ -9,7 +9,7 @@ Vanguard is an investment firm that is currently preparing the launch of a new U
 Baratheon department was given 4 datasets consisting on:
 - **[Client profiles](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_demo.txt):** including Age, Balance, Gender, Tenure and Nr of calls and logons on a 6month period;
 - **[Experiment Rooster](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_experiment_clients.txt):** client_ids segregated by Test, Control and None;
-- **[Digital Footprint 1](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_web_data_pt_1.txt) [Digital Footprint 2](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_web_data_pt_2.txt):** logs of client requests and the dated transaction steps.
+- **[Digital Footprint 1](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_web_data_pt_1.txt) , [Digital Footprint 2](https://github.com/data-bootcamp-v4/lessons/blob/main/5_6_eda_inf_stats_tableau/project/files_for_project/df_final_web_data_pt_2.txt):** logs of client requests and the dated transaction steps.
 
 All data was then purged from NaNs, formatted and binned together to provide initial EDA's and consequent statistical analysis.
 
