@@ -142,7 +142,7 @@ def clean_data(df, df_name):
                 struct[date_column][current_index] = date_time
 
             # Update the last step with the highest step number reached so far
-            struct['last_step'][current_index] = max(struct['last_step'][current_index], step_number)
+            struct['last_step'][current_index] = step_number
 
     # Create a DataFrame from the structure
     df_name = pd.DataFrame(struct)
