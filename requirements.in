@@ -1,1 +1,9 @@
--c requirements-dev.txt
+-c requirements.txt
+
+pandas
+python-dotenv
+matplotlib
+seaborn
+statsmodels
+scipy
+autoreload

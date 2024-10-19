@@ -6,302 +6,291 @@
 #
 asttokens==2.4.1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   stack-data
-bleach==6.1.0
+attrs==24.2.0
     # via
-    #   -r requirements-dev.in
-    #   kaggle
+    #   outcome
+    #   trio
+autoreload==0.1.2
+    # via -r requirements-dev.in
 build==1.2.2.post1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   pip-tools
 certifi==2024.8.30
     # via
-    #   -r requirements-dev.in
-    #   kaggle
-    #   pyogrio
-    #   pyproj
-    #   requests
-charset-normalizer==3.4.0
-    # via
-    #   -r requirements-dev.in
-    #   requests
+    #   -c requirements-dev.txt
+    #   selenium
+cffi==1.17.1
+    # via trio
 click==8.1.7
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
+    #   autoreload
     #   pip-tools
 colorama==0.4.6
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   build
     #   click
     #   ipython
-    #   tqdm
 comm==0.2.2
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipykernel
 contourpy==1.3.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   matplotlib
 cycler==0.12.1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   matplotlib
 debugpy==1.8.6
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipykernel
 decorator==5.1.1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipython
 executing==2.1.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   stack-data
 fonttools==4.54.1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   matplotlib
-geopandas==1.0.1
-    # via -r requirements-dev.in
-greenlet==3.1.1
-    # via
-    #   -r requirements-dev.in
-    #   sqlalchemy
+h11==0.14.0
+    # via wsproto
 idna==3.10
     # via
-    #   -r requirements-dev.in
-    #   requests
+    #   -c requirements-dev.txt
+    #   trio
 ipykernel==6.29.5
-    # via -r requirements-dev.in
+    # via
+    #   -c requirements-dev.txt
+    #   -r requirements-dev.in
 ipython==8.28.0
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
     #   ipykernel
 jedi==0.19.1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipython
 jupyter-client==8.6.3
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
     #   ipykernel
 jupyter-core==5.7.2
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
     #   ipykernel
     #   jupyter-client
-kaggle==1.6.17
-    # via -r requirements-dev.in
 kiwisolver==1.4.7
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   matplotlib
 matplotlib==3.9.2
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
     #   seaborn
 matplotlib-inline==0.1.7
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipykernel
     #   ipython
 mysql-connector-python==9.0.0
-    # via -r requirements-dev.in
+    # via
+    #   -c requirements-dev.txt
+    #   -r requirements-dev.in
 nest-asyncio==1.6.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipykernel
 numpy==2.1.1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   contourpy
-    #   geopandas
     #   matplotlib
     #   pandas
     #   patsy
-    #   pyogrio
     #   scipy
     #   seaborn
-    #   shapely
     #   statsmodels
+outcome==1.3.0.post0
+    # via trio
 packaging==24.1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   build
-    #   geopandas
     #   ipykernel
     #   matplotlib
-    #   pyogrio
     #   statsmodels
 pandas==2.2.3
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
-    #   geopandas
     #   seaborn
     #   statsmodels
 parso==0.8.4
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   jedi
 patsy==0.5.6
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   statsmodels
 pillow==10.4.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   matplotlib
 pip-tools==7.4.1
-    # via -r requirements-dev.in
+    # via
+    #   -c requirements-dev.txt
+    #   -r requirements-dev.in
 platformdirs==4.3.6
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   jupyter-core
 prompt-toolkit==3.0.48
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipython
 psutil==6.0.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipykernel
 pure-eval==0.2.3
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   stack-data
-pycountry==24.6.1
-    # via -r requirements-dev.in
+pycparser==2.22
+    # via cffi
 pygments==2.18.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipython
 pymysql==1.1.1
-    # via -r requirements-dev.in
-pyogrio==0.10.0
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
-    #   geopandas
 pyparsing==3.1.4
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   matplotlib
-pyproj==3.7.0
-    # via
-    #   -r requirements-dev.in
-    #   geopandas
 pyproject-hooks==1.2.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   build
     #   pip-tools
+pysocks==1.7.1
+    # via urllib3
 python-dateutil==2.9.0.post0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   jupyter-client
-    #   kaggle
     #   matplotlib
     #   pandas
 python-dotenv==1.0.1
-    # via -r requirements-dev.in
-python-slugify==8.0.4
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
-    #   kaggle
 pytz==2024.2
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   pandas
 pywin32==306
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   jupyter-core
 pyzmq==26.2.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipykernel
     #   jupyter-client
-requests==2.32.3
-    # via
-    #   -r requirements-dev.in
-    #   kaggle
 scipy==1.14.1
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
     #   statsmodels
 seaborn==0.13.2
-    # via -r requirements-dev.in
-shapely==2.0.6
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
-    #   geopandas
+selenium==4.25.0
+    # via autoreload
 six==1.16.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   asttokens
-    #   bleach
-    #   kaggle
     #   patsy
     #   python-dateutil
-sqlalchemy==2.0.35
-    # via -r requirements-dev.in
+sniffio==1.3.1
+    # via trio
+sortedcontainers==2.4.0
+    # via trio
 stack-data==0.6.3
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipython
 statsmodels==0.14.4
-    # via -r requirements-dev.in
-text-unidecode==1.3
     # via
+    #   -c requirements-dev.txt
     #   -r requirements-dev.in
-    #   python-slugify
 tornado==6.4.1
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   ipykernel
     #   jupyter-client
-tqdm==4.66.5
-    # via
-    #   -r requirements-dev.in
-    #   kaggle
 traitlets==5.14.3
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   comm
     #   ipykernel
     #   ipython
     #   jupyter-client
     #   jupyter-core
     #   matplotlib-inline
+trio==0.27.0
+    # via
+    #   selenium
+    #   trio-websocket
+trio-websocket==0.11.1
+    # via selenium
 typing-extensions==4.12.2
     # via
-    #   -r requirements-dev.in
-    #   sqlalchemy
+    #   -c requirements-dev.txt
+    #   selenium
 tzdata==2024.2
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   pandas
 urllib3==2.2.3
     # via
-    #   -r requirements-dev.in
-    #   kaggle
-    #   requests
+    #   -c requirements-dev.txt
+    #   selenium
+watchdog==5.0.3
+    # via autoreload
 wcwidth==0.2.13
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   prompt-toolkit
-webencodings==0.5.1
-    # via
-    #   -r requirements-dev.in
-    #   bleach
+websocket-client==1.8.0
+    # via selenium
 wheel==0.44.0
     # via
-    #   -r requirements-dev.in
+    #   -c requirements-dev.txt
     #   pip-tools
+wsproto==1.2.0
+    # via trio-websocket
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip

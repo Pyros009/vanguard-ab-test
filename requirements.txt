@@ -4,3 +4,107 @@
 #
 #    pip-compile --strip-extras requirements.in
 #
+attrs==24.2.0
+    # via
+    #   outcome
+    #   trio
+autoreload==0.1.2
+    # via -r requirements.in
+certifi==2024.8.30
+    # via selenium
+cffi==1.17.1
+    # via trio
+click==8.1.7
+    # via autoreload
+colorama==0.4.6
+    # via click
+contourpy==1.3.0
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+fonttools==4.54.1
+    # via matplotlib
+h11==0.14.0
+    # via wsproto
+idna==3.10
+    # via trio
+kiwisolver==1.4.7
+    # via matplotlib
+matplotlib==3.9.2
+    # via
+    #   -r requirements.in
+    #   seaborn
+numpy==2.1.2
+    # via
+    #   contourpy
+    #   matplotlib
+    #   pandas
+    #   patsy
+    #   scipy
+    #   seaborn
+    #   statsmodels
+outcome==1.3.0.post0
+    # via trio
+packaging==24.1
+    # via
+    #   matplotlib
+    #   statsmodels
+pandas==2.2.3
+    # via
+    #   -r requirements.in
+    #   seaborn
+    #   statsmodels
+patsy==0.5.6
+    # via statsmodels
+pillow==11.0.0
+    # via matplotlib
+pycparser==2.22
+    # via cffi
+pyparsing==3.2.0
+    # via matplotlib
+pysocks==1.7.1
+    # via urllib3
+python-dateutil==2.9.0.post0
+    # via
+    #   matplotlib
+    #   pandas
+python-dotenv==1.0.1
+    # via -r requirements.in
+pytz==2024.2
+    # via pandas
+scipy==1.14.1
+    # via
+    #   -r requirements.in
+    #   statsmodels
+seaborn==0.13.2
+    # via -r requirements.in
+selenium==4.25.0
+    # via autoreload
+six==1.16.0
+    # via
+    #   patsy
+    #   python-dateutil
+sniffio==1.3.1
+    # via trio
+sortedcontainers==2.4.0
+    # via trio
+statsmodels==0.14.4
+    # via -r requirements.in
+trio==0.27.0
+    # via
+    #   selenium
+    #   trio-websocket
+trio-websocket==0.11.1
+    # via selenium
+typing-extensions==4.12.2
+    # via selenium
+tzdata==2024.2
+    # via pandas
+urllib3==2.2.3
+    # via selenium
+watchdog==5.0.3
+    # via autoreload
+websocket-client==1.8.0
+    # via selenium
+wsproto==1.2.0
+    # via trio-websocket
